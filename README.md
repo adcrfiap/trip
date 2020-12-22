@@ -27,3 +27,6 @@
   
   * Executar o Deploy para o Cloudformation Stack  
     sam deploy --template-file packaged.yaml --stack-name trip-stack --capabilities CAPABILITY_IAM
+
+## Testar (POSTMAN / INSOMIA)
+* Fazer upload do arquivo src/test/resources/sample_requests_Insomnia.json
